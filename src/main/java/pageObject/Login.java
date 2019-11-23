@@ -13,14 +13,13 @@ import org.openqa.selenium.support.PageFactory;
 
 import javax.swing.*;
 
-public class Login {
+public class Login extends UIBase{
 
-    private WebDriver driver;
     private final Logger log = LoggerHelper.getLogger(Login.class);
     WaitHelper waitHelper;
 
     @FindBy(xpath="//p[text()=' Login or Create Account']/..")
-    WebElement loginBtn;
+    WebElement loginOrCreateBtn;
 
     @FindBy(id="username")
     WebElement username;
@@ -28,11 +27,21 @@ public class Login {
     @FindBy(xpath="//button[@data-cy='continueBtn']")
     WebElement continueBtn;
 
+    @FindBy(xpath="//button[@data-cy='login']")
+    WebElement loginBtn;
+
     @FindBy(id="password")
     WebElement password;
 
     @FindBy(linkText="or Login via Password")
     WebElement viaPasswordLink;
+
+    @FindBy(xpath="//li[@data-cy='account']")
+    WebElement account;
+
+    @FindBy(xpath="//p[contains(text(),'personal profile')]")
+    WebElement usernamelabel;
+
 
     public Login(WebDriver driver) {
         this.driver = driver;
@@ -40,10 +49,10 @@ public class Login {
         waitHelper = new WaitHelper(driver);
     }
 
-    public void clickLogin() {
-        waitHelper.WaitForElementClickable(loginBtn);
+    public void clickLoginOrCreate() {
+        waitHelper.WaitForElementClickable(loginOrCreateBtn);
         log.info("clicking login....");
-        loginBtn.click();
+        loginOrCreateBtn.click();
     }
 
     public void enterUsername(String strUserName) {
@@ -61,13 +70,13 @@ public class Login {
     public void clickContinue() {
         waitHelper.WaitForElementClickable(continueBtn);
         log.info("clicking continue....");
-        for(int i=0;i<=10;i++) {
-            try {
-                new Actions(driver).moveToElement(continueBtn).click().build().perform();
-            } catch (Exception e) {
-                break;
-            }
-        }
+        clickButton(continueBtn);
+    }
+
+    public void clickLogin() {
+        waitHelper.WaitForElementClickable(loginBtn);
+        log.info("clicking continue....");
+        clickButton(loginBtn);
     }
 
     public void clickviaPasswordLink() {
@@ -77,21 +86,33 @@ public class Login {
     }
 
     public void login(String strusername, String strPassword) {
-        clickLogin();
+        clickLoginOrCreate();
         enterUsername(strusername);
         clickContinue();
-        clickviaPasswordLink();
         enterPassword(strPassword);
-        clickContinue();
+        clickLogin();
+    }
+
+    public boolean verifyUser(String strUserName) {
+        waitHelper.WaitForElementClickable(account);
+        log.info("Opening user details....");
+        account.click();
+        waitHelper.waitForElement(usernamelabel);
+        if(usernamelabel.getText().contains(strUserName)){
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public static void main(String[] args) {
         ChromeBrowser obj = new ChromeBrowser();
-        WebDriver driver = obj.getChromeDriver(obj.getChromeOptions());
+        driver = obj.getChromeDriver(obj.getChromeOptions());
             driver.get("https://www.makemytrip.com/");
             driver.manage().window().maximize();
             Login login = new Login(driver);
-            login.login("8431484412","Preeti@2808");
+            login.login("makemytrip223@gmail.com","Project@223");
+            System.out.println(login.verifyUser("makemytrip223@gmail.com"));
 
     }
 }
