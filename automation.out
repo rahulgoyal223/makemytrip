@@ -1,0 +1,110 @@
+2019-11-23 13:11:830 INFO  LoggerHelper:20 - logger is configured
+2019-11-23 13:11:834 INFO  LoggerHelper:21 - logger is configured
+2019-11-23 13:11:834 INFO  LoggerHelper:22 - logger is configured
+2019-11-23 16:11:911 INFO  WaitHelper:31 - WaitHelper object created..
+2019-11-23 16:11:227 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (61f7ca088d185499e387ad6bc18aead7)] -> xpath: //p[text()=' Login or Create Account']/..] for :3 seconds
+2019-11-23 16:11:393 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:394 INFO  Login:42 - clicking login....
+2019-11-23 16:11:601 INFO  WaitHelper:176 - waiting for :[[ChromeDriver: chrome on LINUX (61f7ca088d185499e387ad6bc18aead7)] -> id: username] for :3 seconds
+2019-11-23 16:11:687 INFO  WaitHelper:179 - element is visible now
+2019-11-23 16:11:687 INFO  Login:48 - entering username....8431484412
+2019-11-23 16:11:105 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (61f7ca088d185499e387ad6bc18aead7)] -> xpath: //button[@data-cy='continueBtn']] for :3 seconds
+2019-11-23 16:11:279 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:280 INFO  Login:60 - clicking continue....
+2019-11-23 16:11:526 INFO  WaitHelper:97 - waiting for :Proxy element for: DefaultElementLocator 'By.linkText: or Login via Password' for :3 seconds
+2019-11-23 16:11:734 INFO  WaitHelper:31 - WaitHelper object created..
+2019-11-23 16:11:65 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (91513e0bc21506d7d14ff95d10a82906)] -> xpath: //p[text()=' Login or Create Account']/..] for :3 seconds
+2019-11-23 16:11:231 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:232 INFO  Login:42 - clicking login....
+2019-11-23 16:11:442 INFO  WaitHelper:176 - waiting for :[[ChromeDriver: chrome on LINUX (91513e0bc21506d7d14ff95d10a82906)] -> id: username] for :3 seconds
+2019-11-23 16:11:484 INFO  WaitHelper:179 - element is visible now
+2019-11-23 16:11:485 INFO  Login:48 - entering username....8431484412
+2019-11-23 16:11:895 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (91513e0bc21506d7d14ff95d10a82906)] -> xpath: //button[@data-cy='continueBtn']/..] for :3 seconds
+2019-11-23 16:11:998 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:999 INFO  Login:60 - clicking continue....
+2019-11-23 16:11:362 INFO  WaitHelper:97 - waiting for :Proxy element for: DefaultElementLocator 'By.linkText: or Login via Password' for :3 seconds
+2019-11-23 16:11:416 INFO  WaitHelper:31 - WaitHelper object created..
+2019-11-23 16:11:152 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (cbf29cb47ba99c3c95293b020b0bfcc4)] -> xpath: //p[text()=' Login or Create Account']/..] for :3 seconds
+2019-11-23 16:11:933 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:933 INFO  Login:45 - clicking login....
+2019-11-23 16:11:217 INFO  WaitHelper:176 - waiting for :[[ChromeDriver: chrome on LINUX (cbf29cb47ba99c3c95293b020b0bfcc4)] -> id: username] for :3 seconds
+2019-11-23 16:11:270 INFO  WaitHelper:179 - element is visible now
+2019-11-23 16:11:270 INFO  Login:51 - entering username....8431484412
+2019-11-23 16:11:407 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (cbf29cb47ba99c3c95293b020b0bfcc4)] -> xpath: //span[text()='Continue']] for :3 seconds
+2019-11-23 16:11:246 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:246 INFO  Login:63 - clicking continue....
+2019-11-23 16:11:631 INFO  WaitHelper:97 - waiting for :Proxy element for: DefaultElementLocator 'By.linkText: or Login via Password' for :3 seconds
+2019-11-23 16:11:697 INFO  WaitHelper:31 - WaitHelper object created..
+2019-11-23 16:11:173 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (cae01fc9ab04423721218ebedcf2ab67)] -> xpath: //p[text()=' Login or Create Account']/..] for :3 seconds
+2019-11-23 16:11:832 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:834 INFO  Login:48 - clicking login....
+2019-11-23 16:11:715 INFO  WaitHelper:176 - waiting for :[[ChromeDriver: chrome on LINUX (cae01fc9ab04423721218ebedcf2ab67)] -> id: username] for :3 seconds
+2019-11-23 16:11:837 INFO  WaitHelper:179 - element is visible now
+2019-11-23 16:11:837 INFO  Login:54 - entering username....8431484412
+2019-11-23 16:11:50 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (cae01fc9ab04423721218ebedcf2ab67)] -> xpath: //span[text()='Continue']] for :3 seconds
+2019-11-23 16:11:300 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:302 INFO  Login:66 - clicking continue....
+2019-11-23 16:11:237 INFO  WaitHelper:97 - waiting for :Proxy element for: DefaultElementLocator 'By.linkText: or Login via Password' for :3 seconds
+2019-11-23 16:11:616 INFO  WaitHelper:31 - WaitHelper object created..
+2019-11-23 16:11:66 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (30e5179436d1d69d843a916a8aa1d44d)] -> xpath: //p[text()=' Login or Create Account']/..] for :3 seconds
+2019-11-23 16:11:464 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:464 INFO  Login:48 - clicking login....
+2019-11-23 16:11:259 INFO  WaitHelper:176 - waiting for :[[ChromeDriver: chrome on LINUX (30e5179436d1d69d843a916a8aa1d44d)] -> id: username] for :3 seconds
+2019-11-23 16:11:814 INFO  WaitHelper:179 - element is visible now
+2019-11-23 16:11:814 INFO  Login:54 - entering username....8431484412
+2019-11-23 16:11:669 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (30e5179436d1d69d843a916a8aa1d44d)] -> xpath: //button[@data-cy='continueBtn']] for :3 seconds
+2019-11-23 16:11:932 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:933 INFO  Login:66 - clicking continue....
+2019-11-23 16:11:380 INFO  WaitHelper:97 - waiting for :Proxy element for: DefaultElementLocator 'By.linkText: or Login via Password' for :3 seconds
+2019-11-23 16:11:759 INFO  WaitHelper:31 - WaitHelper object created..
+2019-11-23 16:11:33 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (357f03dd76966ca17663a7e59ee0e490)] -> xpath: //p[text()=' Login or Create Account']/..] for :3 seconds
+2019-11-23 16:11:213 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:214 INFO  Login:48 - clicking login....
+2019-11-23 16:11:473 INFO  WaitHelper:176 - waiting for :[[ChromeDriver: chrome on LINUX (357f03dd76966ca17663a7e59ee0e490)] -> id: username] for :3 seconds
+2019-11-23 16:11:567 INFO  WaitHelper:179 - element is visible now
+2019-11-23 16:11:567 INFO  Login:54 - entering username....8431484412
+2019-11-23 16:11:85 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (357f03dd76966ca17663a7e59ee0e490)] -> xpath: //button[@data-cy='continueBtn']] for :3 seconds
+2019-11-23 16:11:149 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:149 INFO  Login:66 - clicking continue....
+2019-11-23 16:11:538 INFO  WaitHelper:97 - waiting for :Proxy element for: DefaultElementLocator 'By.linkText: or Login via Password' for :3 seconds
+2019-11-23 16:11:382 INFO  WaitHelper:31 - WaitHelper object created..
+2019-11-23 16:11:604 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (7de091b23f4e0ef319c4d36a4767ff79)] -> xpath: //p[text()=' Login or Create Account']/..] for :3 seconds
+2019-11-23 16:11:869 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:870 INFO  Login:48 - clicking login....
+2019-11-23 16:11:233 INFO  WaitHelper:176 - waiting for :[[ChromeDriver: chrome on LINUX (7de091b23f4e0ef319c4d36a4767ff79)] -> id: username] for :3 seconds
+2019-11-23 16:11:375 INFO  WaitHelper:179 - element is visible now
+2019-11-23 16:11:375 INFO  Login:54 - entering username....8431484412
+2019-11-23 16:11:368 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (7de091b23f4e0ef319c4d36a4767ff79)] -> xpath: //button[@data-cy='continueBtn']] for :3 seconds
+2019-11-23 16:11:689 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:690 INFO  Login:66 - clicking continue....
+2019-11-23 16:11:815 INFO  WaitHelper:31 - WaitHelper object created..
+2019-11-23 16:11:371 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (5e460c3d6dd564bc73bd29b3df0811f7)] -> xpath: //p[text()=' Login or Create Account']/..] for :3 seconds
+2019-11-23 16:11:563 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:563 INFO  Login:48 - clicking login....
+2019-11-23 16:11:964 INFO  WaitHelper:176 - waiting for :[[ChromeDriver: chrome on LINUX (5e460c3d6dd564bc73bd29b3df0811f7)] -> id: username] for :3 seconds
+2019-11-23 16:11:75 INFO  WaitHelper:179 - element is visible now
+2019-11-23 16:11:75 INFO  Login:54 - entering username....8431484412
+2019-11-23 16:11:840 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (5e460c3d6dd564bc73bd29b3df0811f7)] -> xpath: //button[@data-cy='continueBtn']] for :3 seconds
+2019-11-23 16:11:956 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:957 INFO  Login:66 - clicking continue....
+2019-11-23 16:11:557 INFO  WaitHelper:31 - WaitHelper object created..
+2019-11-23 16:11:595 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (d2b364cbba85f8f28f9ba0a03652534a)] -> xpath: //p[text()=' Login or Create Account']/..] for :3 seconds
+2019-11-23 16:11:167 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:168 INFO  Login:48 - clicking login....
+2019-11-23 16:11:523 INFO  WaitHelper:176 - waiting for :[[ChromeDriver: chrome on LINUX (d2b364cbba85f8f28f9ba0a03652534a)] -> id: username] for :3 seconds
+2019-11-23 16:11:670 INFO  WaitHelper:179 - element is visible now
+2019-11-23 16:11:671 INFO  Login:54 - entering username....8431484412
+2019-11-23 16:11:651 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (d2b364cbba85f8f28f9ba0a03652534a)] -> xpath: //button[@data-cy='continueBtn']] for :3 seconds
+2019-11-23 16:11:784 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:784 INFO  Login:66 - clicking continue....
+2019-11-23 16:11:818 INFO  WaitHelper:31 - WaitHelper object created..
+2019-11-23 16:11:671 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (2e72a73164612c77773175a6cd66116c)] -> xpath: //p[text()=' Login or Create Account']/..] for :3 seconds
+2019-11-23 16:11:139 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:141 INFO  Login:48 - clicking login....
+2019-11-23 16:11:872 INFO  WaitHelper:176 - waiting for :[[ChromeDriver: chrome on LINUX (2e72a73164612c77773175a6cd66116c)] -> id: username] for :3 seconds
+2019-11-23 16:11:150 INFO  WaitHelper:179 - element is visible now
+2019-11-23 16:11:152 INFO  Login:54 - entering username....8431484412
+2019-11-23 16:11:345 INFO  WaitHelper:97 - waiting for :[[ChromeDriver: chrome on LINUX (2e72a73164612c77773175a6cd66116c)] -> xpath: //button[@data-cy='continueBtn']] for :3 seconds
+2019-11-23 16:11:688 INFO  WaitHelper:100 - element is clickable now
+2019-11-23 16:11:691 INFO  Login:66 - clicking continue....
+2019-11-23 16:11:121 INFO  WaitHelper:97 - waiting for :Proxy element for: DefaultElementLocator 'By.linkText: or Login via Password' for :3 seconds
